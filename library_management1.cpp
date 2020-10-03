@@ -8,7 +8,7 @@ class Book
     string book_name;
     string author;
     float price;
-    int status;
+    int status = 0;
 public:
     void acceptbook()
     {
